@@ -6,7 +6,7 @@
 
 .video-preview {
   margin: 10px;
-  flex: 1;
+  /* flex: 1; */
   /* height: 413px; */
 }
 
@@ -90,36 +90,41 @@ p {
 @media (max-width: 599px) {
   .video-preview, a {
     max-width: 500px;
+    flex: 1 1 500px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 999px) {
   .video-preview, a {
     max-width: 423px;
+    flex: 1 1 423px;
   }
 }
 
 @media (min-width: 1000px) and (max-width: 1199px) {
   .video-preview, a {
-    max-width: 423px;
+    max-width: 375px;
+    flex: 1 1 375px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1599px) {
   .video-preview, a {
-    max-width: 375px;
-    
+    max-width: 353px;
+    flex: 1 1 353px;
   }
 }
 
 @media (min-width: 1600px) and (max-width: 1799px) {
   .video-preview, a {
-    max-width: 353px;
+    max-width: 319px;
+    flex: 1 1 319px;
   }
 }
 
 @media (min-width: 1800px) {
   .video-preview, a {
     max-width: 319px;
+    flex: 1 1 319px;
   }
 }
