@@ -7,7 +7,7 @@
 .video-preview {
   margin: 10px;
   flex: 1;
-  max-height: 413px;
+  height: 413px;
 }
 
 a {
