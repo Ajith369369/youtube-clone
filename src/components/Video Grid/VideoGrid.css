@@ -6,6 +6,11 @@
   row-gap: 40px; */
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .thumbnail-container {
   margin-bottom: 8px;
   position: relative;

@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "url": "https://www.youtube.com/watch?v=CbX_SIz_9fk",
     "thumbnail": "./public/images/transformers-1.jpg",
     "videoTime": "2:27",
     "channelImage": "./public/images/paramount-movies.jpg",
@@ -11,6 +12,7 @@
   },
   {
     "id": 2,
+    "url": "https://www.youtube.com/watch?v=CbX_SIz_9fk",
     "thumbnail": "thumbnails/9al.webp",
     "videoTime": "13:32",
     "channelImage": "thumbnails/9allogo.jpg",
@@ -21,6 +23,7 @@
   },
   {
     "id": 3,
+    "url": "https://www.youtube.com/watch?v=CbX_SIz_9fk",
     "thumbnail": "thumbnails/9al.webp",
     "videoTime": "13:32",
     "channelImage": "thumbnails/9allogo.jpg",
