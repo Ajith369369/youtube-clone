@@ -7,7 +7,8 @@
 .video-preview {
   margin: 10px;
   /* flex: 1; */
-  /* height: 413px; */
+  height: 400px;
+  box-sizing: border-box;
 }
 
 a {
@@ -44,6 +45,7 @@ a {
   flex-flow: row;
   justify-content: space-between;
   align-items: start;
+  margin-bottom: 8px;
 }
 
 .channel {
@@ -83,48 +85,67 @@ p {
   color: rgb(96, 96, 96);
 }
 
-.author{
+.author {
   margin-bottom: 5px;
 }
 
-@media (max-width: 599px) {
-  .video-preview, a {
-    min-width: 500px;
-    flex: 1 1 500px;
+@media (max-width: 574px) {
+  .video-preview,
+  a {
+    max-width: 417px;
+    /* flex: 1 1 500px; */
+    flex: 1 1 calc(100% - 20px);
+      /* margin: 10px + 10px */
+      /* 1 item/row */
   }
 }
 
-@media (min-width: 600px) and (max-width: 999px) {
-  .video-preview, a {
-    min-width: 423px;
-    flex: 1 1 423px;
+@media (min-width: 575px) and (max-width: 1018px) {
+  .video-preview,
+  a {
+    max-width: 420px;
+    flex: 1 1 calc(50% - 20px);
+      /* margin: 10px + 10px */
+      /* 2 items/row */
   }
 }
 
-@media (min-width: 1000px) and (max-width: 1199px) {
-  .video-preview, a {
-    min-width: 375px;
-    flex: 1 1 375px;
+@media (min-width: 1019px) and (max-width: 1199px) {
+  .video-preview,
+  a {
+    max-width: 380px;
+    flex: 1 1 calc(33.33% - 20px);
+      /* margin: 10px + 10px */
+      /* 3 items/row */
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1599px) {
-  .video-preview, a {
-    min-width: 353px;
-    flex: 1 1 353px;
+  .video-preview,
+  a {
+    max-width: 353px;
+    flex: 1 1 calc(25% - 20px);
+      /* margin: 10px + 10px */
+      /* 4 items/row */
   }
 }
 
 @media (min-width: 1600px) and (max-width: 1799px) {
-  .video-preview, a {
-    min-width: 319px;
-    flex: 1 1 319px;
+  .video-preview,
+  a {
+    max-width: 319px;
+    flex: 1 1 calc(20% - 20px);
+      /* margin: 10px + 10px */
+      /* 5 items/row */
   }
 }
 
 @media (min-width: 1800px) {
-  .video-preview, a {
-    min-width: 319px;
-    flex: 1 1 319px;
+  .video-preview,
+  a {
+    max-width: 310px;
+    flex: 1 1 calc(16.67% - 20px);
+      /* margin: 10px + 10px */
+      /* 6 items/row */
   }
 }
