@@ -1,13 +1,16 @@
 .video-grid {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
+  align-items: stretch;
+  column-gap: 16px;
+  row-gap: 40px;
+  gap: 10px;
 }
 
 .video-preview {
   margin: 10px;
   /* flex: 1; */
-  height: 400px;
+  /* height: 400px; */
   box-sizing: border-box;
 }
 
@@ -95,8 +98,8 @@ p {
     max-width: 417px;
     /* flex: 1 1 500px; */
     flex: 1 1 calc(100% - 20px);
-      /* margin: 10px + 10px */
-      /* 1 item/row */
+    /* margin: 10px + 10px */
+    /* 1 item/row */
   }
 }
 
@@ -105,8 +108,8 @@ p {
   a {
     max-width: 420px;
     flex: 1 1 calc(50% - 20px);
-      /* margin: 10px + 10px */
-      /* 2 items/row */
+    /* margin: 10px + 10px */
+    /* 2 items/row */
   }
 }
 
@@ -115,8 +118,9 @@ p {
   a {
     max-width: 380px;
     flex: 1 1 calc(33.33% - 20px);
-      /* margin: 10px + 10px */
-      /* 3 items/row */
+    /* flex: 1 1 33.333%; */
+    /* margin: 10px + 10px */
+    /* 3 items/row */
   }
 }
 
@@ -125,8 +129,8 @@ p {
   a {
     max-width: 353px;
     flex: 1 1 calc(25% - 20px);
-      /* margin: 10px + 10px */
-      /* 4 items/row */
+    /* margin: 10px + 10px */
+    /* 4 items/row */
   }
 }
 
@@ -135,8 +139,8 @@ p {
   a {
     max-width: 319px;
     flex: 1 1 calc(20% - 20px);
-      /* margin: 10px + 10px */
-      /* 5 items/row */
+    /* margin: 10px + 10px */
+    /* 5 items/row */
   }
 }
 
@@ -145,7 +149,7 @@ p {
   a {
     max-width: 310px;
     flex: 1 1 calc(16.67% - 20px);
-      /* margin: 10px + 10px */
-      /* 6 items/row */
+    /* margin: 10px + 10px */
+    /* 6 items/row */
   }
 }
