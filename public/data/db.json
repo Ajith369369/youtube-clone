@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "thumbnail": "./public/images/transformers-1.jpg",
+    "videoTime": "2:27",
+    "channelImage": "./public/images/paramount-movies.jpg",
+    "title": "Transformers | Official Trailer | Paramount Movies",
+    "author": "Paramount Movies",
+    "views": "1M",
+    "timeAgo": "12 years ago"
+  },
+  {
+    "id": 2,
+    "thumbnail": "thumbnails/9al.webp",
+    "videoTime": "13:32",
+    "channelImage": "thumbnails/9allogo.jpg",
+    "title": "3 NEW MESSI CARDS 105 PACK OPENING 😶‍🌫️ 🐐 EFOOTBALL 24 mobile",
+    "author": "9AL Games",
+    "views": "296K",
+    "timeAgo": "8 days ago"
+  },
+  {
+    "id": 3,
+    "thumbnail": "thumbnails/9al.webp",
+    "videoTime": "13:32",
+    "channelImage": "thumbnails/9allogo.jpg",
+    "title": "3 NEW MESSI CARDS 105 PACK OPENING 😶‍🌫️ 🐐 EFOOTBALL 24 mobile",
+    "author": "9AL Games",
+    "views": "296K",
+    "timeAgo": "8 days ago"
+  }
+]

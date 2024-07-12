@@ -1,0 +1,311 @@
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(231, 227, 227);
+  border-bottom-style: solid;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.youtube-logo {
+  height: 20px;
+}
+
+.middle-section {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  width: 66px;
+  height: 40px;
+  background-color: rgb(241, 241, 241);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(192, 192, 192);
+  margin-left: -1;
+  margin-right: 10px;
+}
+
+.search-button,
+.voice-button,
+.upload-icon-container,
+.youtube-app-icon-contanier,
+.notification-icon-container,
+.settings-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.search-button .tooltip,
+.voice-button .tooltip,
+.upload-icon-container .tooltip,
+.youtube-app-icon-contanier .tooltip,
+.notification-icon-container .tooltip,
+.settings-icon-container .tooltip {
+  font-family: Roboto, Arial;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip,
+.voice-button:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.youtube-app-icon-contanier:hover .tooltip,
+.notification-icon-container:hover .tooltip,
+.settings-icon-container:hover .tooltip {
+  opacity: 1;
+}
+
+.voice-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  border-color: rgb(248, 248, 248);
+}
+
+.search {
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-radius: 2px;
+  border: 1px solid rgb(192, 192, 192);
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+
+.search::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+}
+
+.search-icon {
+  height: 25px;
+}
+
+.voice-icon {
+  height: 24px;
+}
+
+.right-section {
+  margin-right: 20px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-shrink: 0;
+}
+
+.upload-icon,
+.youtube-app-icon,
+.notification-icon,
+.settings-icon {
+  height: 24px;
+}
+
+.settings-icon {
+  margin-right: 8px;
+}
+
+.notification-icon-container {
+  position: relative;
+}
+
+.notification-count {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
+
+.profile-icon {
+  height: 32px;
+  border-radius: 16px;
+}
+
+.style-scope.ytd-masthead {
+  display: flex;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+  scrollbar-color: #aaa transparent;
+}
+
+.yt-spec-button-shape-next.yt-spec-button-shape-next--outline.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-leading {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-radius: 18px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  color: #3ea6ff;
+  cursor: pointer;
+  flex: 1;
+  flex-basis: 0.000000001px;
+  flex-direction: row;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 36px;
+  justify-content: center;
+  line-height: 36px;
+  margin: 0;
+  min-width: 0;
+  outline-width: 0;
+  padding: 0 15px;
+  position: relative;
+  text-decoration: none;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+.yt-spec-button-shape-next__icon {
+  background: transparent;
+  border: 0;
+  color: #3ea6ff;
+  cursor: pointer;
+  fill: currentColor;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 24px;
+  line-height: 0;
+  margin: 0;
+  margin-left: -6px;
+  margin-right: 6px;
+  padding: 0;
+  text-transform: none;
+  white-space: nowrap;
+  width: 24px;
+}
+
+.yt-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.style-scope.yt-icon {
+  color: #3ea6ff;
+  cursor: pointer;
+  fill: var(--iron-icon-fill-color, currentcolor);
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 100%;
+  line-height: 0;
+  stroke: var(--iron-icon-stroke-color, none);
+  text-transform: none;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.yt-spec-icon-shape {
+  align-items: center;
+  color: #3ea6ff;
+  cursor: pointer;
+  fill: rgb(62, 166, 255);
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 100%;
+  justify-content: center;
+  line-height: 0;
+  stroke: none;
+  text-transform: none;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.icon-shape-div {
+  width: 100%;
+  height: 100%;
+  display: block;
+  fill: currentcolor;
+}
+
+.icon-shape-div-svg {
+  pointer-events: none;
+  display: inherit;
+  width: 100%;
+  height: 100%;
+}
+
+.yt-spec-button-shape-next__button-text-content {
+  background: transparent;
+  border: 0;
+  color: #3ea6ff;
+  cursor: pointer;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+.yt-core-attributed-string.yt-core-attributed-string--white-space-no-wrap {
+  background: transparent;
+  border: 0;
+  color: #3ea6ff;
+  cursor: pointer;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+  white-space: nowrap;
+}
