@@ -13,38 +13,46 @@ function VideoGrid() {
 
   return (
     <>
-      {videoData.map((video) => (
-        <a key={video.id} href={video.url} target="_blank">
-          <div className="video-preview">
-            <div>
-              <div className="thumbnail-container">
-                <img
-                  className="thumbnail"
-                  src={video.thumbnail}
-                  alt="Thumbnail"
-                />
-                <div className="video-time">{video.videoTime}</div>
-              </div>
-              <div className="video-info-container">
-                <div>
+      <div className="video-grid">
+        {videoData?.map((video) => (
+          <a key={video.id} href={video.url} target="_blank">
+            <div className="video-preview">
+              <div>
+                <div className="thumbnail-container">
                   <img
-                    className="channel"
-                    src={video.channelImage}
-                    alt="Profile"
+                    className="thumbnail"
+                    src={video.thumbnail}
+                    alt="Thumbnail"
                   />
+                  <div className="video-time">{video.videoTime}</div>
                 </div>
-                <div className="video-info">
-                  <p className="title-main">{video.title}</p>
-                  <p className="author">{video.author}</p>
-                  <p className="video-stats">
-                    {video.views} views &#183; {video.timeAgo}
-                  </p>
+                <div className="video-info-container">
+                  <div>
+                    <img
+                      className="channel"
+                      src={video.channelImage}
+                      alt="Profile"
+                    />
+                  </div>
+                  <div className="video-info">
+                    <p className="title-main">{video.title}</p>
+                    <p className="author">{video.author}</p>
+                    <p className="video-stats">
+                      {video.views} views &#183; {video.timeAgo}
+                    </p>
+                  </div>
+                  <div className="settings-icon-container">
+                    <img
+                      className="settings-icon"
+                      src="./public/images/settings.svg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </a>
-      ))}
+          </a>
+        ))}
+      </div>
 
       {/* <div className="video-grid">
         <div className="video-preview">

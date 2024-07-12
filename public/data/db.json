@@ -12,24 +12,91 @@
   },
   {
     "id": 2,
-    "url": "https://www.youtube.com/watch?v=CbX_SIz_9fk",
-    "thumbnail": "thumbnails/9al.webp",
-    "videoTime": "13:32",
-    "channelImage": "thumbnails/9allogo.jpg",
-    "title": "3 NEW MESSI CARDS 105 PACK OPENING 😶‍🌫️ 🐐 EFOOTBALL 24 mobile",
-    "author": "9AL Games",
-    "views": "296K",
-    "timeAgo": "8 days ago"
+    "url": "https://www.youtube.com/watch?v=xl8qg1nwIaY",
+    "thumbnail": "./public/images/rajyabhishek.jpg",
+    "videoTime": "1:42",
+    "channelImage": "./public/images/arts-of-ritik.jpg",
+    "title": "Mahabharat Soundtracks - Rajyabhishek Full Theme Lyrical",
+    "author": "Arts of Ritik",
+    "views": "679K",
+    "timeAgo": "2 years ago"
   },
   {
     "id": 3,
-    "url": "https://www.youtube.com/watch?v=CbX_SIz_9fk",
-    "thumbnail": "thumbnails/9al.webp",
-    "videoTime": "13:32",
-    "channelImage": "thumbnails/9allogo.jpg",
-    "title": "3 NEW MESSI CARDS 105 PACK OPENING 😶‍🌫️ 🐐 EFOOTBALL 24 mobile",
-    "author": "9AL Games",
-    "views": "296K",
-    "timeAgo": "8 days ago"
+    "url": "https://www.youtube.com/watch?v=21idGW7iiy4",
+    "thumbnail": "./public/images/karna.jpg",
+    "videoTime": "1:44",
+    "channelImage": "./public/images/arts-of-ritik.jpg",
+    "title": "Mahabharat Soundtracks - Karna Theme Song Lyrical",
+    "author": "Arts of Ritik",
+    "views": "40K",
+    "timeAgo": "2 years ago"
+  },
+  {
+    "id": 4,
+    "url": "https://www.youtube.com/watch?v=AgDlIX3-1AY",
+    "thumbnail": "./public/images/yada-yada-hi-dharmasya.jpg",
+    "videoTime": "4:43",
+    "channelImage": "./public/images/neehoww.jpg",
+    "title": "Yada Yada Hi Dharmasya/ Govind Song",
+    "author": "Neehoww",
+    "views": "10M",
+    "timeAgo": "10 years ago"
+  },
+  {
+    "id": 5,
+    "url": "https://www.youtube.com/watch?v=U70dlBdmOM0",
+    "thumbnail": "./public/images/mahabharat-title-song.jpg",
+    "videoTime": "12:48",
+    "channelImage": "./public/images/soulstar-rohit.jpg",
+    "title": "Mahabharat Title Song | Compiled |Instrumental & Lyrical Versions |",
+    "author": "Mahabharat Fame Singer - Soulstar Rohit",
+    "views": "3.8M",
+    "timeAgo": "3 years ago"
+  },
+  {
+    "id": 6,
+    "url": "https://www.youtube.com/watch?v=15i-s98dh8A",
+    "thumbnail": "./public/images/krishna-krishna.jpg",
+    "videoTime": "3:02",
+    "channelImage": "./public/images/soulstar-rohit.jpg",
+    "title": "KRISHNA KRISHNA WOH HAIN KRISHNA KRISHNA| KRISHNA THEME | MAHABHARAT",
+    "author": "Mahabharat Fame Singer - Soulstar Rohit",
+    "views": "13M",
+    "timeAgo": "3 years ago"
+  },
+  {
+    "id": 7,
+    "url": "https://www.youtube.com/watch?v=Ox0R9wZ8dJc",
+    "thumbnail": "./public/images/mahabharat-title-flute.jpg",
+    "videoTime": "1:21",
+    "channelImage": "./public/images/soulstar-rohit.jpg",
+    "title": "MAHABHARAT TITLE FLUTE |",
+    "author": "Mahabharat Fame Singer - Soulstar Rohit",
+    "views": "2.2M",
+    "timeAgo": "4 years ago"
+  },
+  {
+    "id": 8,
+    "url": "https://www.youtube.com/watch?v=OKVt7I7zscQ",
+    "thumbnail": "./public/images/mahabharat-7-casts.jpg",
+    "videoTime": "2:00",
+    "channelImage": "./public/images/sudipto.jpg",
+    "title": "Mahabharat Theme Song by 7 Casts ANTV",
+    "author": "sudipto biswas",
+    "views": "62M",
+    "timeAgo": "8 years ago"
+  },
+  {
+    "id": 9,
+    "url": "https://www.youtube.com/watch?v=v0W4ALkmu3g",
+    "thumbnail": "./public/images/arjuna.jpg",
+    "videoTime": "3:23",
+    "channelImage": "./public/images/sanatani.jpg",
+    "title": "Parthasya Dhananjaya Arjun Song | Gandiv Dhari Arjun Song | Arjun Theme Song | Mahabharat Motivation",
+    "author": "Sanatani🚩",
+    "views": "142K",
+    "timeAgo": "1 year ago"
   }
+
 ]
