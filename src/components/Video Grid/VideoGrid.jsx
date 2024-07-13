@@ -35,7 +35,7 @@ function VideoGrid() {
                     />
                   </div>
                   <div className="video-info">
-                    <p className="title-main">{video.title.length > 60 ? `${video.title.slice(0, 60)}...` : video.title}</p>
+                    <p className="title-main">{video.title.length > 75 ? `${video.title.slice(0, 75)}...` : video.title}</p>
                     <p className="author">{video.author}</p>
                     <p className="video-stats">
                       {video.views} views &#183; {video.timeAgo}

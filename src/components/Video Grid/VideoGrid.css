@@ -2,9 +2,9 @@
   display: flex;
   flex-flow: row wrap;
   align-items: stretch;
-  column-gap: 16px;
-  row-gap: 40px;
-  gap: 10px;
+  /* column-gap: 16px;
+  row-gap: 40px; */
+  gap: 5px;
 }
 
 .video-preview {
