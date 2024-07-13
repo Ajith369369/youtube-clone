@@ -45,6 +45,8 @@
   border-style: solid;
   border-width: 1px;
   border-color: rgb(192, 192, 192);
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
   margin-left: -1;
   margin-right: 10px;
 }
@@ -106,7 +108,8 @@
   height: 36px;
   padding-left: 10px;
   font-size: 16px;
-  border-radius: 2px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
   border: 1px solid rgb(192, 192, 192);
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 0;
