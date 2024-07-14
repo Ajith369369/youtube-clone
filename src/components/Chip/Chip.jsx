@@ -48,10 +48,21 @@ function HorizontalScroll() {
   return (
     <div className="scroll-div">
       <div className="scroll-container">
-        {showLeftButton && (
-          <button className={`scroll-button left ${!showLeftButton ? "hidden" : ""}`} onClick={scrollLeft}>
+        {/* <button
+            className={`scroll-button left ${!showLeftButton ? "hidden" : ""}`}
+            onClick={scrollLeft}
+          >
             &lt;
+          </button> */}
+        {showLeftButton && (
+          <button
+            className={`scroll-button left ${!showLeftButton ? "hidden" : ""}`}
+            onClick={scrollLeft}
+          >
+            <img src="./public/images/left-arrow.svg" alt="" />
           </button>
+          // &lt; is an HTML character entity used to represent the "less than" symbol (<). When the browser encounters &lt; in an HTML document, it renders it as <.
+          // Similarly, &gt; is used to represent the "greater than" symbol (>).
         )}
         <div className="scroll-content" ref={scrollContainer}>
           <div className="scroll-item click">All</div>
@@ -69,9 +80,17 @@ function HorizontalScroll() {
           <div className="scroll-item">Warner Bros Pictures</div>
           <div className="scroll-item">Recently uploaded</div>
         </div>
-        {showRightButton && (
-          <button className={`scroll-button right ${!showRightButton ? "hidden" : ""}`} onClick={scrollRight}>
+        {/* <button className={`scroll-button right ${!showRightButton ? "hidden" : ""}`} onClick={scrollRight}>
             &gt;
+          </button> */}
+        {showRightButton && (
+          <button
+            className={`scroll-button right ${
+              !showRightButton ? "hidden" : ""
+            }`}
+            onClick={scrollRight}
+          >
+            <img src="./public/images/right-arrow.svg" alt="" />
           </button>
         )}
       </div>

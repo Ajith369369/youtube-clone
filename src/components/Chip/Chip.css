@@ -16,13 +16,37 @@
   height: 54px;
 }
 
-.scroll-button {
+/* .scroll-button {
   background-color: #007bff;
   color: white;
   border: none;
   padding: 10px;
   cursor: pointer;
   z-index: 1;
+} */
+
+.scroll-button {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: #0f0f0f;
+  cursor: pointer;
+  flex: 1;
+  height: 40px;
+  justify-content: center;
+  line-height: 36px;
+  margin: 0;
+  min-width: 0;
+  outline-width: 0;
+  padding: 0;
+  width: 40px;
+}
+
+.scroll-button:hover {
+  background-color: hsla(214, 18%, 82%, 1); /* Darker shade on hover */
 }
 
 .scroll-button.left {
@@ -32,7 +56,7 @@
 
 .scroll-button.right {
   position: absolute;
-  right: 0;
+  right: 5px;
 }
 
 .scroll-button.hidden {
