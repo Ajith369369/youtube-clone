@@ -70,7 +70,7 @@ function HorizontalScroll() {
           <div className="scroll-item">Recently uploaded</div>
         </div>
         {showRightButton && (
-          <button className="scroll-button right" onClick={scrollRight}>
+          <button className={`scroll-button right ${!showRightButton ? "hidden" : ""}`} onClick={scrollRight}>
             &gt;
           </button>
         )}
