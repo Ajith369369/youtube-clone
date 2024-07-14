@@ -54,7 +54,7 @@ function HorizontalScroll() {
           </button>
         )}
         <div className="scroll-content" ref={scrollContainer}>
-          <div className="scroll-item">All</div>
+          <div className="scroll-item click">All</div>
           <div className="scroll-item">Mahabharat</div>
           <div className="scroll-item">Krishna</div>
           <div className="scroll-item">Transformers</div>
