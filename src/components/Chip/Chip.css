@@ -13,6 +13,7 @@
   width: 100%;
   overflow: hidden;
   position: relative;
+  height: 54px;
 }
 
 .scroll-button {
@@ -42,7 +43,6 @@
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
-  /* margin: 0 40px; */
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
 }
