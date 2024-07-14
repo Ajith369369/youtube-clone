@@ -12,7 +12,7 @@ function HorizontalScroll() {
   const updateButtons = () => {
     // This function updates the visibility of the buttons based on the current scroll position of the container. It checks, if the scroll position is at the beginning or end of the container.
     const { scrollLeft, scrollWidth, clientWidth } = scrollContainer.current;
-    
+
     setShowLeftButton(scrollLeft > 0);
     // The line setShowLeftButton(scrollLeft > 0); is used to update the visibility of the left scroll button based on the current scroll position of the container. Specifically, this checks if the scrollLeft position of the container is greater than 0. If it is, it means that the user has scrolled the container to the right and therefore, the left button should be shown to allow scrolling back to the left. If scrollLeft is 0, the left button is hidden because there's no need to scroll left anymore.
 
@@ -49,7 +49,7 @@ function HorizontalScroll() {
     <div className="scroll-div">
       <div className="scroll-container">
         {showLeftButton && (
-          <button className="scroll-button left" onClick={scrollLeft}>
+          <button className={`scroll-button left ${!showLeftButton ? "hidden" : ""}`} onClick={scrollLeft}>
             &lt;
           </button>
         )}
