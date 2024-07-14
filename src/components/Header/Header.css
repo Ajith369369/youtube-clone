@@ -312,3 +312,46 @@
   text-transform: none;
   white-space: nowrap;
 }
+
+@media (max-width: 599px) {
+  .hamburger-menu {
+    margin: 0px 10px;
+    width: 24px;
+  }
+
+  .youtube-logo {
+    width: 45px;
+  }
+
+  .middle-section {
+    margin: 0px 5px;
+  }
+
+  .search-button {
+    width: 30px;
+  }
+
+  .search-icon {
+    width: 20px;
+  }
+
+  .right-section {
+    width: 100px;
+    margin: 0px 10px;
+  }
+
+  .yt-spec-button-shape-next.yt-spec-button-shape-next--outline.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-leading {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .middle-section {
+    margin-left: 20px;
+  }
+
+  .right-section {
+    width: 100px;
+    margin-left: 20px;
+  }
+}
