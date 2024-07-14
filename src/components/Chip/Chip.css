@@ -1,126 +1,57 @@
-#chips-wrapper {
-  width: 1900px;
-  height: 56px;
-  background: transparent;
-  background-color: white;
-  border: 0;
-  display: flex;
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 10px;
-  justify-content: center;
-  margin: 0;
-  outline: 1px solid #036cdb !important;
-  padding: 0;
-  position: fixed;
-  top: 55px;
+/* HorizontalScroll.css */
+.scroll-container {
+  /* 
+  top: 56px;
   left: 72px;
+  background-color: white;
   z-index: 100;
-}
+   */
 
-#chips-content {
-  box-sizing: border-box;
-  max-width: 2096px;
-  padding: 0 24px;
-  width: 100%;
-  flex-direction: row;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  z-index: 2020;
-}
-
-#left-arrow {
-  flex-direction: row;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  z-index: 2020;
-}
-
-#left-arrow-button {
-  flex-direction: column;
-}
-
-.arrow {
-  width: 24px;
-  height: 24px;
-}
-
-.arrow-icon-shape {
-  width: 100%;
-  height: 100%;
-  display: block;
-  fill: currentcolor;
-}
-
-#scroll-container {
-  overflow: hidden;
-  position: relative;
-  touch-action: pan-y;
-  white-space: nowrap;
-}
-
-#chips {
-  display: inline-block;
-  transform: translateX(-640px);
-  transition-duration: .15s;
-  transition-timing-function: cubic-bezier(.05,0,0,1);
-  white-space: nowrap;
-  will-change: transform;
-}
-
-.style-scope, .ytd-feed-filter-chip-bar-renderer, .iron-selected {
+  display: flex;
   align-items: center;
-  background-color: rgb(241, 241, 241);
-  border-radius: 8px;
-  box-sizing: border-box;
-  color: rgb(15, 15, 15);
-  cursor: pointer;
-  display: inline-flex;
-  flex-direction: row;
-  font-family: "Roboto","Arial",sans-serif;
-  font-size: 1.4rem;
-  font-weight: 500;
-  height: 32px;
-  line-height: 2rem;
-  margin: 12px;
-  margin-left: 0px;
-  min-width: 12px;
-  outline: none;
+  width: 100%;
   overflow: hidden;
-  padding: 0 12px;
   position: relative;
-  transition: background-color .5s cubic-bezier(.05,0,0,1);
-  user-select: none;
-  white-space: nowrap;
 }
 
-.style-scope, .yt-chip-cloud-chip-renderer {
-  color: rgb(255, 255, 255);
+.scroll-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
   cursor: pointer;
-  display: block;
-  font-family: "Roboto","Arial",sans-serif;
-  font-size: 1.4rem;
-  font-weight: 500;
-  line-height: 2rem;
-  max-width: 20rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  user-select: none;
-  white-space: nowrap; 
+  z-index: 1;
 }
 
-#right-arrow {
-  flex-direction: row;
-  height: 100%;
+.scroll-button.left {
+  position: absolute;
+  left: 0;
+}
+
+.scroll-button.right {
   position: absolute;
   right: 0;
-  top: 0;
-  z-index: 2020;
 }
 
-#right-arrow-button {
-  flex-direction: column;
+.scroll-content {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin: 0 40px;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scroll-content::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.scroll-item {
+  flex: 0 0 200px;
+  margin-right: 20px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
 }
