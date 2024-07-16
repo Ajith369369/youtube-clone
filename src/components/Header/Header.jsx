@@ -13,19 +13,19 @@ function Header() {
           />
           <img
             className="youtube-logo"
-            src="./public/images/youtube-logo.svg"
+            src="/images/youtube-logo.svg"
           />
         </div>
         <div className="middle-section">
           <input className="search" type="text" placeholder="Search" />
           <button className="search-button">
-            <img className="search-icon" src="./public/images/search.svg" />
+            <img className="search-icon" src="/images/search.svg" />
             <div className="tooltip">Search</div>
           </button>
           <button className="voice-button">
             <img
               className="voice-icon"
-              src="./public/images/voice-search-icon.svg"
+              src="/images/voice-search-icon.svg"
             />
             <div className="tooltip">Search with your voice</div>
           </button>
@@ -55,7 +55,7 @@ function Header() {
             src="./public/images/channels4_profile.jpg"
           /> */}
           <div className="settings-icon-container">
-            <img className="settings-icon" src="./public/images/settings.svg" />
+            <img className="settings-icon" src="/images/settings.svg" />
             <div className="tooltip">Settings</div>
           </div>
           <ytd-button-renderer className="style-scope ytd-masthead">
