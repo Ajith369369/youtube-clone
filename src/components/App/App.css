@@ -1,2 +1,5 @@
-
+.app-container {
+  position: relative;
+  z-index: 600;
+}
 

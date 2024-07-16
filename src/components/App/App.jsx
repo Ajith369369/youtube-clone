@@ -8,10 +8,12 @@ function App() {
 
   return (
     <>
-     <Header/>
-     <Chip/>
-     <Sidebar/>
-     <VideoGrid/>
+     <div className='app-container'>
+       <Header/>
+       <Chip/>
+       <Sidebar/>
+       <VideoGrid/>
+     </div>
     </>
   )
 }
