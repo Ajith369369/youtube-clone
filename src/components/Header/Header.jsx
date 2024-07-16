@@ -9,7 +9,7 @@ function Header() {
           {/* ..../public/images/hamburger-menu.svg */}
           <img
             className="hamburger-menu"
-            src="./public/images/hamburger-menu.svg"
+            src="/images/hamburger-menu.svg"
           />
           <img
             className="youtube-logo"
