@@ -59,7 +59,7 @@ function HorizontalScroll() {
             className={`scroll-button left ${!showLeftButton ? "hidden" : ""}`}
             onClick={scrollLeft}
           >
-            <img src="./public/images/left-arrow.svg" alt="" />
+            <img src="/images/left-arrow.svg" alt="" />
           </button>
           // &lt; is an HTML character entity used to represent the "less than" symbol (<). When the browser encounters &lt; in an HTML document, it renders it as <.
           // Similarly, &gt; is used to represent the "greater than" symbol (>).
@@ -90,7 +90,7 @@ function HorizontalScroll() {
             }`}
             onClick={scrollRight}
           >
-            <img src="./public/images/right-arrow.svg" alt="" />
+            <img src="/images/right-arrow.svg" alt="" />
           </button>
         )}
       </div>
