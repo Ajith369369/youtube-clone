@@ -6,23 +6,23 @@ function Sidebar() {
     <>
     <div className="sidebar">
         <div className="sidebar-link">
-             <img src="./public/images/home.svg"/>
+             <img src="/images/home.svg"/>
              <div>Home</div>
         </div>
         <div className="sidebar-link">
-            <img src="./public/images/shorts.svg"/>
+            <img src="/images/shorts.svg"/>
             <div>Shorts</div>
         </div>
         <div className="sidebar-link">
-            <img src="./public/images/subscriptions.svg"/>
+            <img src="/images/subscriptions.svg"/>
             <div>Subscriptions</div>
         </div>
         <div className="sidebar-link">
-            <img src="./public/images/you.svg"/>
+            <img src="/images/you.svg"/>
             <div>You</div>
         </div>
         <div className="sidebar-link">
-            <img src="./public/images/history.svg"/>
+            <img src="/images/history.svg"/>
             <div>History</div>
         </div>
     </div>
