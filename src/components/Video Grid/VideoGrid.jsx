@@ -5,7 +5,7 @@ function VideoGrid() {
   const [videoData, setVideoData] = useState([]);
 
   useEffect(() => {
-    fetch("./public/data/db.json")
+    fetch("/data/db.json")
       .then((response) => response.json())
       .then((data) => setVideoData(data))
       .catch((error) => console.error("Error fetching the data:", error));
@@ -44,7 +44,7 @@ function VideoGrid() {
                   <div className="settings-icon-container">
                     <img
                       className="settings-icon"
-                      src="./public/images/settings.svg"
+                      src="/images/settings.svg"
                     />
                   </div>
                 </div>
